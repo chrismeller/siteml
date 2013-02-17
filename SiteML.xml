@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SiteML.xsd">
+  <date-created>2001-12-17T09:30:47Z</date-created>
+	<generator version="0.10">Habari</generator>
+	<url>http://blog.chrismeller.com</url>
+	<title>Chris Meller</title>
+	<users>
+		<user id="1">
+			<name>chris</name>
+			<email>chris@doesnthaveone.com</email>
+			<date-created>2001-12-17T09:30:47Z</date-created>
+			<extended-properties>
+				<property key="first-name">Chris</property>
+				<property key="last-name">Meller</property>
+			</extended-properties>
+			<url>http://blog.chrismeller.com</url>
+		</user><user id="2">
+			<name>foo</name>
+			<email>foo@example.com</email>
+			<date-created>2001-12-17T09:30:47Z</date-created>
+		</user>
+	</users>
+	<posts>
+		<post id="1" type="entry">
+			<title>Welcome to Habari</title>
+			<body>Welcome to your example Habari blog!</body>
+			<date-created>2001-12-17T09:30:47Z</date-created>
+			<authors>
+				<author id="1"/>
+				<author id="2"/>
+			</authors>
+			<url>welcome-to-habari</url>
+			<taxonomy>
+				<vocabulary id="1">
+					<term id="1"></term>
+				</vocabulary>
+			</taxonomy>
+		</post>
+		<post id="2" type="page">
+			<title>Example Page</title>
+			<body>This is a page</body>
+			<date-created>2001-12-17T09:30:47Z</date-created>
+			<authors>
+				<author id="1"></author>
+			</authors>
+			<url>example-page</url>
+		</post>
+	</posts>
+	<taxonomy>
+		<vocabulary id="1">
+			<name>Tags</name>
+			<terms>
+				<term id="1">
+					<name>Foo</name>
+					<url>foo</url>
+				</term>
+				<term id="2">
+					<name>Bar</name>
+					<url>bar</url>
+					<extended-properties>
+						<property key="parent-term-id">1</property>
+					</extended-properties>
+				</term>
+			</terms>
+			<extended-properties>
+				<property key="type">hierarchical</property>
+			</extended-properties>
+		</vocabulary>
+	</taxonomy>
+</site>
