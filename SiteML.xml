@@ -20,8 +20,8 @@
 			<date-created>2001-12-17T09:30:47Z</date-created>
 		</user>
 	</users>
-	<posts>
-		<post id="1" type="entry">
+	<content>
+		<item id="1" type="entry">
 			<title>Welcome to Habari</title>
 			<body>Welcome to your example Habari blog!</body>
 			<date-created>2001-12-17T09:30:47Z</date-created>
@@ -35,8 +35,8 @@
 					<term id="1"></term>
 				</vocabulary>
 			</taxonomy>
-		</post>
-		<post id="2" type="page">
+		</item>
+		<item id="2" type="page">
 			<title>Example Page</title>
 			<body>This is a page</body>
 			<date-created>2001-12-17T09:30:47Z</date-created>
@@ -44,8 +44,8 @@
 				<author id="1"></author>
 			</authors>
 			<url>example-page</url>
-		</post>
-	</posts>
+		</item>
+	</content>
 	<taxonomy>
 		<vocabulary id="1">
 			<name>Tags</name>
