@@ -39,10 +39,10 @@
 				<xs:element ref="title"/>
 				<xs:element ref="extended-properties" minOccurs="0"/>
 				<xs:element ref="users"/>
-				<xs:element name="posts">
+				<xs:element name="content">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="post" maxOccurs="unbounded">
+							<xs:element name="item" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element ref="title"/>
