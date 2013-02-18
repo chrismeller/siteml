@@ -21,7 +21,7 @@
 		</user>
 	</users>
 	<content>
-		<item id="1" type="entry">
+		<item id="1" type="post">
 			<title>Welcome to Habari</title>
 			<body>Welcome to your example Habari blog!</body>
 			<date-created>2001-12-17T09:30:47Z</date-created>
